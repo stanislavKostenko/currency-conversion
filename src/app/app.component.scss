@@ -1,0 +1,19 @@
+.converter {
+  text-align: center;
+  &__field {
+    margin: 0 auto;
+    width: 60%;
+  }
+  &__currency {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    &__item {
+      flex: 0 0 15%;
+    }
+  }
+}
